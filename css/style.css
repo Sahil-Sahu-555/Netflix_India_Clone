@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    /* Summary — Rule to Always Remember
+        url("img/background.jpg") looks for image inside the same folder as your CSS file → ❌ in your case
+        url("../img/background.jpg") goes up one folder then into img/ → ✅ correct!
+    */
+    background-image: url("../img/background.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    /* background-color: black;
+    opacity: 0.75; */
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+
+}
+
+/* Navbar */
+nav span img {
+    height: 80px;
+}
+
+.bar {
+    /* → This makes your navbar 80% of the viewport width.
+    But it’s not centered yet → you need margin: auto; to center horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 12vh;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: transparent;
+    z-index: 2;
+}
+
+button {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: auto;
+    cursor: pointer;
+    padding: 6px 16px;
+}
+
+#language {
+    background-color: transparent;
+    color: white;
+    font-weight: 100;
+    font-size: 1rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#language option {
+    background-color: black;
+    color: white;
+}
+
+.main .box .display {
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    font-family: "Geologica", "Roboto";
+    z-index: 2;
+}
+
+/* for emidiate 1st child we use ">", else it will be applied to every 1st child */
+.display> :nth-child(1) {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.display> :nth-child(2) {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.display> :nth-child(3) {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.display> :nth-child(4) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.display button {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-family: "Roboto";
+    font-size: 1.8rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: auto;
+    cursor: pointer;
+    padding: 8px 20px;
+}
+
+.display input[type="text"] {
+    background: transparent;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 1.8rem;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.rectangle {
+    /* Using this background to make the shades blend properly */
+    background: linear-gradient(to bottom, rgb(0, 4, 55), rgb(0, 1, 30));
+    height: 80px;
+    width: 100%;
+    border-top: 4px solid red;
+    border-top-left-radius: 75% 50%;
+    border-top-right-radius: 70% 50%;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    /* centers horizontally */
+    align-items: flex-end;
+    /* moves content to bottom */
+    padding: 5px;
+    /* gives some space from bottom */
+    position: relative;
+    z-index: 3;
+}
+
+.rectangle h2 {
+    font-size: 2rem;
+    color: red;
+}
+
+.content {
+    height: auto;
+    background: linear-gradient(to bottom, rgb(0, 1, 30), rgb(0, 1, 5));
+    padding: 1px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    padding-bottom: 50px;
+
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+}
+
+.slide-1 img,
+.slide-2 img {
+    border-radius: 10px;
+    border: 5px solid red;
+    margin-top: 50px;
+}
+
+.slide-1 img:hover,
+.slide-2 img:hover{
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    border: 5px solid rgb(18, 193, 223);
+}
+
+
+.heading {
+    background: linear-gradient(to top, rgb(0, 1, 5), black);
+}
+
+.heading h2 {
+    color: white;
+    font-size: 1.8rem;
+    font-family: "Roboto";
+    padding-left: 150px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.info {
+    height: auto;
+    background: linear-gradient(to top, rgb(0, 1, 5), black);
+    padding: 0px 150px;
+    padding-bottom: 20px;
+}
+
+
+.reasons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.container {
+    background: linear-gradient(to bottom, #19093a, #0d041b);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    color: aliceblue;
+
+}
+
+.container h3 {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.container p {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.container img {
+    height: 100px;
+    width: 100px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.heading1 h2{
+    background-color: black;
+    color: white;
+    font-family: "Roboto";
+    font-size: 1.8rem;
+    height: auto;
+    padding: 20px 150px;
+}
+
+
+.faq{
+    background-color: black;
+    color: white;
+    padding: 0px 150px;
+}
+.faq :hover{
+    background-color: rgb(77, 73, 73);
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+}
+.questions{
+    display: flex;
+    background-color: rgb(52, 49, 49);
+    padding: 25px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.questions h3{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.last{
+    background-color: black;
+    padding: 100px 150px;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.last p{
+    font-family: "Roboto";
+    color: white;
+
+}
+.bottom button {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-family: "Roboto";
+    font-size: 1.8rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: auto;
+    cursor: pointer;
+    padding: 8px 20px;
+}
+.bottom input[type="text"] {
+    background: transparent;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 1.8rem;
+    border: 2px solid white;
+    cursor: pointer;
+    width: auto;
+}
+
+footer{
+    background-color: black;
+    padding: 10px 150px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: white;
+    margin: 20px 50px;
+    padding-bottom: 40px;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+a{
+    color: gray;
+}
+a:hover{
+    color: blue;
+}
+footer p{
+    color: gray;
+    padding: 30px 1px;
+    font-family: "Roboto";
+}
+footer p a{
+    color: blue;
+}
