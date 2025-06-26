@@ -4,6 +4,13 @@ A front-end clone of the Netflix India homepage built using **HTML** and **CSS o
 
 ---
 
+## 📸 Preview
+
+![Full Page Screenshot](img/Preview(Netflix_Screenshot).png)
+
+
+---
+
 ## 🚀 Features
 
 - 🌐 Navigation Bar with logo, language selector, and sign-in button  
@@ -12,13 +19,6 @@ A front-end clone of the Netflix India homepage built using **HTML** and **CSS o
 - ❓ FAQ Section with hover interaction  
 - 🧾 Informational Footer with links and branding  
 - 🔤 Fonts from Google: **Roboto**, **Geologica**
-
----
-
-## 📸 Preview
-
-![Full Page Screenshot](img/Preview(Netflix_Screenshot).png)
-
 
 ---
 
