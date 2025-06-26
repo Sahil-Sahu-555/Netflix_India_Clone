@@ -35,12 +35,6 @@ A front-end clone of the Netflix India homepage built using **HTML** and **CSS o
 - [ ] Add JavaScript functionality to FAQ dropdowns  
 - [ ] Implement actual slider or carousel for trending section  
 
----
-
-## 📃 License
-
-This project is created for educational purposes only.  
-It is **not affiliated with or endorsed by Netflix Inc.**
 
 ---
 
@@ -57,3 +51,9 @@ If you'd like to connect, reach out here:
 - 🌐 GitHub: [GitHub Profile](https://github.com/sahilsahu555)
 - 💼 LinkedIn: [Click to Connect on LinkedIn](https://www.linkedin.com/in/sahil-r-sahu/)
 
+---
+
+## 📃 License
+
+This project is created for educational purposes only.  
+It is **not affiliated with or endorsed by Netflix Inc.**
