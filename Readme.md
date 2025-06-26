@@ -47,3 +47,13 @@ It is **not affiliated with or endorsed by Netflix Inc.**
 ## 👨‍💻 Author
 
 **Sahil Sahu**
+
+---
+
+## 📫 Contact Me
+
+If you'd like to connect, reach out here:
+
+- 🌐 GitHub: [GitHub Profile](https://github.com/sahilsahu555)
+- 💼 LinkedIn: [Click to Connect on LinkedIn](https://www.linkedin.com/in/sahil-r-sahu/)
+
