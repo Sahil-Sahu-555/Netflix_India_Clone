@@ -41,7 +41,7 @@ A front-end clone of the Netflix India homepage built using **HTML** and **CSS o
 
 If you'd like to connect, reach out here:
 
-- 🌐 GitHub: [@sahil-sahu-555](https://github.com/sahilsahu555)
+- 🌐 GitHub: [@sahil-sahu](https://github.com/saahil-sahu)
 - 💼 LinkedIn: [sahil-r-sahu](https://www.linkedin.com/in/sahil-r-sahu/)
 
 ---
@@ -55,5 +55,5 @@ It is **not affiliated with or endorsed by Netflix Inc.**
 
 ## 👨‍💻 Author
 
-**Sahil Sahu**
+**Saahil Sahu**
 
