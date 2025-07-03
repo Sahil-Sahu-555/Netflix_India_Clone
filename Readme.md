@@ -6,7 +6,7 @@ A front-end clone of the Netflix India homepage built using **HTML** and **CSS o
 
 ## 🔗 Live Demo
 
-[Click here: To view the live site](https://saahil-sahu.github.io/My-Netflix-India-Clone)
+[Click here: To view the live site](https://saahil-sahu.github.io/My-Netflix-India-Clone/)
 ---
 
 ## 📸 Preview
